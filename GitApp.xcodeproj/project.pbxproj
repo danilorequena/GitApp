@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0322E917E400D1C53B /* AppDelegate.swift */; };
 		FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0522E917E400D1C53B /* ViewController.swift */; };
-		FFE68C0922E917E400D1C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0722E917E400D1C53B /* Main.storyboard */; };
 		FFE68C0B22E917E700D1C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0A22E917E700D1C53B /* Assets.xcassets */; };
-		FFE68C0E22E917E700D1C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0C22E917E700D1C53B /* LaunchScreen.storyboard */; };
 		FFE68C1922E917E700D1C53B /* GitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C1822E917E700D1C53B /* GitAppTests.swift */; };
 		FFE68C2422E917E700D1C53B /* GitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C2322E917E700D1C53B /* GitAppUITests.swift */; };
+		FFE68C3322E9243300D1C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C3122E9243300D1C53B /* Main.storyboard */; };
+		FFE68C3622E9244900D1C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C3422E9244900D1C53B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,7 @@
 		FFE68C0022E917E400D1C53B /* GitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C0322E917E400D1C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE68C0522E917E400D1C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFE68C0822E917E400D1C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFE68C0A22E917E700D1C53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFE68C0D22E917E700D1C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE68C0F22E917E700D1C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE68C1422E917E700D1C53B /* GitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C1822E917E700D1C53B /* GitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		FFE68C1F22E917E700D1C53B /* GitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C2322E917E700D1C53B /* GitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppUITests.swift; sourceTree = "<group>"; };
 		FFE68C2522E917E700D1C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE68C3222E9243300D1C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../../../../../../Users/danilorequena/Downloads/github-data-master/GitApi/Storyboard/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		FFE68C3522E9244900D1C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../../../../../../Users/danilorequena/Downloads/github-data-master/GitApi/Storyboard/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 			children = (
 				FFE68C0322E917E400D1C53B /* AppDelegate.swift */,
 				FFE68C0522E917E400D1C53B /* ViewController.swift */,
-				FFE68C0722E917E400D1C53B /* Main.storyboard */,
+				FFE68C3122E9243300D1C53B /* Main.storyboard */,
+				FFE68C3422E9244900D1C53B /* LaunchScreen.storyboard */,
 				FFE68C0A22E917E700D1C53B /* Assets.xcassets */,
-				FFE68C0C22E917E700D1C53B /* LaunchScreen.storyboard */,
 				FFE68C0F22E917E700D1C53B /* Info.plist */,
 			);
 			path = GitApp;
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE68C0E22E917E700D1C53B /* LaunchScreen.storyboard in Resources */,
+				FFE68C3622E9244900D1C53B /* LaunchScreen.storyboard in Resources */,
+				FFE68C3322E9243300D1C53B /* Main.storyboard in Resources */,
 				FFE68C0B22E917E700D1C53B /* Assets.xcassets in Resources */,
-				FFE68C0922E917E400D1C53B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +293,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FFE68C0722E917E400D1C53B /* Main.storyboard */ = {
+		FFE68C3122E9243300D1C53B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFE68C0822E917E400D1C53B /* Base */,
+				FFE68C3222E9243300D1C53B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FFE68C0C22E917E700D1C53B /* LaunchScreen.storyboard */ = {
+		FFE68C3422E9244900D1C53B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFE68C0D22E917E700D1C53B /* Base */,
+				FFE68C3522E9244900D1C53B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
