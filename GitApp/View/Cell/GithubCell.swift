@@ -12,7 +12,7 @@ import SDWebImage
 class GithubCell: UITableViewCell {
 
     @IBOutlet weak var cellBackgroundView: BackgroundView!
-    @IBOutlet weak var imageOwner: CustomUIImageView!
+    @IBOutlet weak var imageOwner: UIImageView!
     @IBOutlet weak var lblOwnerName: UILabel!
     @IBOutlet weak var lblRepoName: UILabel!
     @IBOutlet weak var lblStars: UILabel!

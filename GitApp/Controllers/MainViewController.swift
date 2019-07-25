@@ -11,7 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var spinner: UIActivityIndicatorView!
+//    @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     let api = Interactor<Items>()
     var gitHubData = [GithubData]()

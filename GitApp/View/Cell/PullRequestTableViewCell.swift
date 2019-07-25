@@ -19,6 +19,7 @@ class PullRequestTableViewCell: UITableViewCell {
     @IBOutlet weak var txtDescription: UITextView!
     
     func configureCell(pullRequest: PullRequest) {
+        
         let date = pullRequest.date.split(separator: "T")
         let dateData = date[0].split(separator: "-")
         let day = dateData[2]

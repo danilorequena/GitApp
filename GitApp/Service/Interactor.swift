@@ -14,13 +14,14 @@ class Interactor<S> where S: Decodable {
     typealias Model = S
     
     func fetchModel(url: URL, completion: @escaping (Model?) -> Void) {
+        
         Alamofire.request(url).responseJSON { (response) in
             if let error = response.result.error {
                 debugPrint(error.localizedDescription)
                 completion(nil)
             }
             
-            guard let data = response.data else {return completion(nil)}
+            guard let data = response.data else { return completion(nil) }
             do {
                 let json = try JSONDecoder().decode(Model.self, from: data)
                 completion(json)

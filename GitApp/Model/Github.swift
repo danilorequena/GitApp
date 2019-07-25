@@ -10,7 +10,7 @@ import Foundation
 
 
 struct Items: Decodable {
-    let items = [GithubData]()
+    let items : [GithubData]
 }
 
 struct GithubData: Decodable {

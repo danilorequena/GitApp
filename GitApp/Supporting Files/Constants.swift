@@ -17,5 +17,5 @@ let pullRequestUrl = "https://api.github.com/repos/"
 let SEGUE_TO_REQUEST = "segueToRequest"
 
 //CELLS
-let GITHUB_CELL = "githubCell"
+let GITHUB_CELL = "GithubCell"
 let REQUEST_CELL = "requestCell"
