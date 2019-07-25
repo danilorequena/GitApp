@@ -10,7 +10,7 @@ import Foundation
 
 
 struct Items: Decodable {
-    let items = [GithubData]
+    let items = [GithubData]()
 }
 
 struct GithubData: Decodable {
@@ -24,6 +24,7 @@ struct GithubData: Decodable {
         case name
         case description
         case stars = "stargazers_count"
+        case forks = "forks_count"
         case owner
     }
 }

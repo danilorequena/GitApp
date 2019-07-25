@@ -12,10 +12,11 @@
 		FF44289922E937A70099CD39 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289822E937A70099CD39 /* PullRequest.swift */; };
 		FF44289D22E93A4B0099CD39 /* GithubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289C22E93A4B0099CD39 /* GithubCell.swift */; };
 		FF44289F22E93DCF0099CD39 /* PullRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289E22E93DCE0099CD39 /* PullRequestTableViewCell.swift */; };
-		FF60227922E944D5003AE00A /* BackgraoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60227822E944D5003AE00A /* BackgraoundView.swift */; };
 		FF60227B22E94745003AE00A /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60227A22E94745003AE00A /* CustomUIImageView.swift */; };
+		FF98EA8722E95044007DE371 /* PullRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF98EA8622E95044007DE371 /* PullRequestViewController.swift */; };
+		FFC7EB9A22E9559500CE6760 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC7EB9922E9559500CE6760 /* BackgroundView.swift */; };
 		FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0322E917E400D1C53B /* AppDelegate.swift */; };
-		FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0522E917E400D1C53B /* ViewController.swift */; };
+		FFE68C0622E917E400D1C53B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0522E917E400D1C53B /* MainViewController.swift */; };
 		FFE68C0B22E917E700D1C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0A22E917E700D1C53B /* Assets.xcassets */; };
 		FFE68C1922E917E700D1C53B /* GitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C1822E917E700D1C53B /* GitAppTests.swift */; };
 		FFE68C2422E917E700D1C53B /* GitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C2322E917E700D1C53B /* GitAppUITests.swift */; };
@@ -50,11 +51,12 @@
 		FF44289822E937A70099CD39 /* PullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequest.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Model/PullRequest.swift"; sourceTree = "<group>"; };
 		FF44289C22E93A4B0099CD39 /* GithubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GithubCell.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Cell/GithubCell.swift"; sourceTree = "<group>"; };
 		FF44289E22E93DCE0099CD39 /* PullRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequestTableViewCell.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Cell/PullRequestTableViewCell.swift"; sourceTree = "<group>"; };
-		FF60227822E944D5003AE00A /* BackgraoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgraoundView.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Customizable/BackgraoundView.swift"; sourceTree = "<group>"; };
 		FF60227A22E94745003AE00A /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomUIImageView.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Customizable/CustomUIImageView.swift"; sourceTree = "<group>"; };
+		FF98EA8622E95044007DE371 /* PullRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequestViewController.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Controllers/PullRequestViewController.swift"; sourceTree = "<group>"; };
+		FFC7EB9922E9559500CE6760 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Customizable/BackgroundView.swift"; sourceTree = "<group>"; };
 		FFE68C0022E917E400D1C53B /* GitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C0322E917E400D1C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFE68C0522E917E400D1C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFE68C0522E917E400D1C53B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FFE68C0A22E917E700D1C53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE68C0F22E917E700D1C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE68C1422E917E700D1C53B /* GitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,10 +144,28 @@
 		FF60227522E94401003AE00A /* Customizable */ = {
 			isa = PBXGroup;
 			children = (
-				FF60227822E944D5003AE00A /* BackgraoundView.swift */,
 				FF60227A22E94745003AE00A /* CustomUIImageView.swift */,
+				FFC7EB9922E9559500CE6760 /* BackgroundView.swift */,
 			);
 			path = Customizable;
+			sourceTree = "<group>";
+		};
+		FF98EA8522E94FE1007DE371 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFE68C0522E917E400D1C53B /* MainViewController.swift */,
+				FF98EA8622E95044007DE371 /* PullRequestViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF98EA8822E95208007DE371 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FFE68C3122E9243300D1C53B /* Main.storyboard */,
+				FFE68C3422E9244900D1C53B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		FFE68BF722E917E400D1C53B = {
@@ -173,14 +193,13 @@
 		FFE68C0222E917E400D1C53B /* GitApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF98EA8822E95208007DE371 /* Storyboard */,
+				FF98EA8522E94FE1007DE371 /* Controllers */,
 				FF44289A22E9399D0099CD39 /* View */,
 				FF44289522E92FE80099CD39 /* Model */,
 				FFE68C3A22E926B200D1C53B /* Service */,
 				FFE68C3722E9250800D1C53B /* Supporting Files */,
 				FFE68C0322E917E400D1C53B /* AppDelegate.swift */,
-				FFE68C0522E917E400D1C53B /* ViewController.swift */,
-				FFE68C3122E9243300D1C53B /* Main.storyboard */,
-				FFE68C3422E9244900D1C53B /* LaunchScreen.storyboard */,
 				FFE68C0A22E917E700D1C53B /* Assets.xcassets */,
 				FFE68C0F22E917E700D1C53B /* Info.plist */,
 			);
@@ -398,14 +417,15 @@
 			files = (
 				FF44289922E937A70099CD39 /* PullRequest.swift in Sources */,
 				FF60227B22E94745003AE00A /* CustomUIImageView.swift in Sources */,
-				FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */,
+				FFC7EB9A22E9559500CE6760 /* BackgroundView.swift in Sources */,
+				FFE68C0622E917E400D1C53B /* MainViewController.swift in Sources */,
 				FF44289F22E93DCF0099CD39 /* PullRequestTableViewCell.swift in Sources */,
 				FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */,
 				FF44289722E935EA0099CD39 /* Github.swift in Sources */,
 				FF44289D22E93A4B0099CD39 /* GithubCell.swift in Sources */,
 				FFE68C3C22E926EE00D1C53B /* Interactor.swift in Sources */,
+				FF98EA8722E95044007DE371 /* PullRequestViewController.swift in Sources */,
 				FFE68C3922E9256100D1C53B /* Constants.swift in Sources */,
-				FF60227922E944D5003AE00A /* BackgraoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

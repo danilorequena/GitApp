@@ -1,8 +1,8 @@
 //
-//  BackgraoundView.swift
+//  BackgroundView.swift
 //  GitApp
 //
-//  Created by Danilo Requena on 24/07/19.
+//  Created by Danilo Requena on 25/07/19.
 //  Copyright © 2019 Danilo Requena. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class BackgroundView: UIView {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setUpView()
@@ -30,4 +30,5 @@ class BackgroundView: UIView {
         layer.shadowOpacity = 1.0
         layer.shadowRadius = 2.0
     }
+    
 }
