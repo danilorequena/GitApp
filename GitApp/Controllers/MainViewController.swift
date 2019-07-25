@@ -11,7 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-//    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     let api = Interactor<Items>()
     var gitHubData = [GithubData]()
@@ -33,14 +33,14 @@ class MainViewController: UIViewController {
     func setupView(_ page: Int) {
         guard let url = URL(string: "\(baseUrl)\(page)") else { return }
         isLoadingData = false
-//        spinner.startAnimating()
+        spinner.startAnimating()
         api.fetchModel(url: url) { (items) in
             if let itemsData = items {
                 for data in itemsData.items {
                     self.gitHubData.append(data)
                 }
             }
-//            self.spinner.stopAnimating()
+            self.spinner.stopAnimating()
             self.tableView.reloadData()
         }
     }
