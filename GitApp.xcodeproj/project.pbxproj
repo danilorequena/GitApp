@@ -10,6 +10,8 @@
 		378A4C0B3E9213753EF6D058 /* Pods_GitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FA458443AA8E227BD484BA /* Pods_GitApp.framework */; };
 		FF44289722E935EA0099CD39 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289622E935EA0099CD39 /* Github.swift */; };
 		FF44289922E937A70099CD39 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289822E937A70099CD39 /* PullRequest.swift */; };
+		FF44289D22E93A4B0099CD39 /* GithubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289C22E93A4B0099CD39 /* GithubCell.swift */; };
+		FF44289F22E93DCF0099CD39 /* PullRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289E22E93DCE0099CD39 /* PullRequestTableViewCell.swift */; };
 		FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0322E917E400D1C53B /* AppDelegate.swift */; };
 		FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0522E917E400D1C53B /* ViewController.swift */; };
 		FFE68C0B22E917E700D1C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0A22E917E700D1C53B /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		B7FA458443AA8E227BD484BA /* Pods_GitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF44289622E935EA0099CD39 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Github.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Model/Github.swift"; sourceTree = "<group>"; };
 		FF44289822E937A70099CD39 /* PullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequest.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Model/PullRequest.swift"; sourceTree = "<group>"; };
+		FF44289C22E93A4B0099CD39 /* GithubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GithubCell.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Cell/GithubCell.swift"; sourceTree = "<group>"; };
+		FF44289E22E93DCE0099CD39 /* PullRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequestTableViewCell.swift; path = "../../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/View/Cell/PullRequestTableViewCell.swift"; sourceTree = "<group>"; };
 		FFE68C0022E917E400D1C53B /* GitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C0322E917E400D1C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE68C0522E917E400D1C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FF44289A22E9399D0099CD39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF44289B22E939B50099CD39 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF44289B22E939B50099CD39 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF44289C22E93A4B0099CD39 /* GithubCell.swift */,
+				FF44289E22E93DCE0099CD39 /* PullRequestTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FFE68BF722E917E400D1C53B = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +159,7 @@
 		FFE68C0222E917E400D1C53B /* GitApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF44289A22E9399D0099CD39 /* View */,
 				FF44289522E92FE80099CD39 /* Model */,
 				FFE68C3A22E926B200D1C53B /* Service */,
 				FFE68C3722E9250800D1C53B /* Supporting Files */,
@@ -362,8 +384,10 @@
 			files = (
 				FF44289922E937A70099CD39 /* PullRequest.swift in Sources */,
 				FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */,
+				FF44289F22E93DCF0099CD39 /* PullRequestTableViewCell.swift in Sources */,
 				FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */,
 				FF44289722E935EA0099CD39 /* Github.swift in Sources */,
+				FF44289D22E93A4B0099CD39 /* GithubCell.swift in Sources */,
 				FFE68C3C22E926EE00D1C53B /* Interactor.swift in Sources */,
 				FFE68C3922E9256100D1C53B /* Constants.swift in Sources */,
 			);
