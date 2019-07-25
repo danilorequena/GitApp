@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		378A4C0B3E9213753EF6D058 /* Pods_GitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FA458443AA8E227BD484BA /* Pods_GitApp.framework */; };
+		FF44289722E935EA0099CD39 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289622E935EA0099CD39 /* Github.swift */; };
+		FF44289922E937A70099CD39 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44289822E937A70099CD39 /* PullRequest.swift */; };
 		FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0322E917E400D1C53B /* AppDelegate.swift */; };
 		FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE68C0522E917E400D1C53B /* ViewController.swift */; };
 		FFE68C0B22E917E700D1C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE68C0A22E917E700D1C53B /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		45E1C7389131680D1BB844F3 /* Pods-GitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitApp.debug.xcconfig"; path = "Target Support Files/Pods-GitApp/Pods-GitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		86131AA2A7C4BFF117E81EE5 /* Pods-GitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitApp.release.xcconfig"; path = "Target Support Files/Pods-GitApp/Pods-GitApp.release.xcconfig"; sourceTree = "<group>"; };
 		B7FA458443AA8E227BD484BA /* Pods_GitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF44289622E935EA0099CD39 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Github.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Model/Github.swift"; sourceTree = "<group>"; };
+		FF44289822E937A70099CD39 /* PullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullRequest.swift; path = "../../../../../../../../../../System/Volumes/Data/Users/danilorequena/Library/CloudStorage/iCloud Drive/Desktop/Projects/GitApp/GitApp/Model/PullRequest.swift"; sourceTree = "<group>"; };
 		FFE68C0022E917E400D1C53B /* GitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE68C0322E917E400D1C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE68C0522E917E400D1C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +93,6 @@
 				45E1C7389131680D1BB844F3 /* Pods-GitApp.debug.xcconfig */,
 				86131AA2A7C4BFF117E81EE5 /* Pods-GitApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,6 +102,15 @@
 				B7FA458443AA8E227BD484BA /* Pods_GitApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF44289522E92FE80099CD39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF44289622E935EA0099CD39 /* Github.swift */,
+				FF44289822E937A70099CD39 /* PullRequest.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FFE68BF722E917E400D1C53B = {
@@ -126,6 +138,7 @@
 		FFE68C0222E917E400D1C53B /* GitApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF44289522E92FE80099CD39 /* Model */,
 				FFE68C3A22E926B200D1C53B /* Service */,
 				FFE68C3722E9250800D1C53B /* Supporting Files */,
 				FFE68C0322E917E400D1C53B /* AppDelegate.swift */,
@@ -347,8 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF44289922E937A70099CD39 /* PullRequest.swift in Sources */,
 				FFE68C0622E917E400D1C53B /* ViewController.swift in Sources */,
 				FFE68C0422E917E400D1C53B /* AppDelegate.swift in Sources */,
+				FF44289722E935EA0099CD39 /* Github.swift in Sources */,
 				FFE68C3C22E926EE00D1C53B /* Interactor.swift in Sources */,
 				FFE68C3922E9256100D1C53B /* Constants.swift in Sources */,
 			);
